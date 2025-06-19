@@ -8,28 +8,46 @@
   <style>
     body {
       background: #1e1f26;
-      color: #f8f9fa;
+      color: #ffffff;
       font-family: 'Segoe UI', sans-serif;
     }
-    .card {
+    .contact-box {
       background-color: #2a2b38;
+      border: 2px solid #00AFF0;
+      border-radius: 12px;
       padding: 30px;
-      border-radius: 10px;
-      border: 1px solid #6f42c1;
+      margin-top: 40px;
+      box-shadow: 0 0 10px rgba(0, 175, 240, 0.2);
     }
-    .social-icons a {
-      color: #ccc;
+    .email-link {
+      color: #ffffff;
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-decoration: underline;
+    }
+    .icon-row {
+      margin-top: 20px;
+    }
+    .icon-row a {
       margin-right: 20px;
-      font-size: 1.5rem;
+      color: #00AFF0;
+      font-size: 1.8rem;
+      transition: transform 0.2s;
+    }
+    .icon-row a:hover {
+      transform: scale(1.2);
+      color: #ffffff;
     }
   </style>
 </head>
 <body>
   <div class="container py-5">
     <h1 class="mb-4">Contact</h1>
-    <div class="card">
-      <p>Email:<a href="mailto:staceybaror@gmail.com" class="text-light">staceybaror@gmail.com</a></p>
-      <div class="social-icons mt-3">
+
+    <div class="contact-box">
+      <p>Email: <a href="mailto:staceybaror@gmail.com" class="email-link">staceybaror@gmail.com</a></p>
+
+      <div class="icon-row">
         <a href="https://www.linkedin.com/in/staceybaror" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/staceybaror" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
         <a href="https://scholar.google.co.za/citations?user=HqpBIQEAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
